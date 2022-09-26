@@ -15,8 +15,7 @@ class DomesticatableTrader extends Trader<Domesticatable> {
      * @param money     The Trader's money
      */
     public DomesticatableTrader(List<Domesticatable> inventory,
-                                List<Domesticatable>
-                                        wishlist,
+                                List<Domesticatable> wishlist,
                                 int money) {
         super(inventory, wishlist, money);
     }
@@ -25,7 +24,7 @@ class DomesticatableTrader extends Trader<Domesticatable> {
      * Construct a DomesticatableTrader, giving them the
      * given money and an empty wishlist and inventory.
      *
-     * @param money     The Trader's money
+     * @param money The Trader's money
      */
     public DomesticatableTrader(int money) {
         super(money);
